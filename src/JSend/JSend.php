@@ -1,4 +1,4 @@
-<?php namespace ThunderID\Jsend;
+<?php namespace ThunderID\jsend;
 
 class Jsend {
 	
