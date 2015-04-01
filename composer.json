@@ -1,0 +1,17 @@
+{
+    "name": "thunderid/j-send",
+    "description": "JSend for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "erickmo",
+            "email": "erick.mo@vortege.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">5.3.0"
+	},
+    "autoload": {
+    }
+}
