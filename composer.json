@@ -13,6 +13,8 @@
 		"php": ">5.3.0"
 	},
     "autoload": {
-        "ThunderID\\jsend\\": "src/"
+        "psr-4": {
+            "ThunderID\\jsend\\": "src/"
+        }
     }
 }
