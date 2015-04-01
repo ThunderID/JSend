@@ -1,6 +1,6 @@
 <?php namespace ThunderID\jsend;
 
-class Jsend {
+class jsend {
 	
 	protected $results;
 
