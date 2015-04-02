@@ -5,7 +5,7 @@ This package is to help creating Json API Response. It follows the JSend standar
 # Installation
 Add this code to composer.json:
 ```
-	"thunderid/j-send": "dev-master"
+	"thunderid/jsend": "dev-master"
 ```
 
 and run
@@ -15,6 +15,6 @@ and run
 
 # Usage
 ```php
-	$jsend = new \ThunderID\Jsend($status = "success|error|fail", $array);
+	$jsend = new \ThunderID\jsend\jsend($status = "success|error|fail", $array);
 	echo $jsend->toJson();
 ```
