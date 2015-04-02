@@ -38,4 +38,9 @@ class jsend {
 	{
 		return json_encode($this->results);
 	}
+
+	function toArray()
+	{
+		return $this->results;
+	}
 }
