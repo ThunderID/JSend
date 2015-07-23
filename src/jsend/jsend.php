@@ -43,4 +43,25 @@ class jsend {
 	{
 		return $this->results;
 	}
+
+	function __get($field)
+	{
+		switch (strtolower($field)) {
+			case 'status':
+				return $this->results['status'];
+				break;
+			
+			case 'data':
+				return $this->results['data'];
+				break;
+
+			case 'message':
+				return $this->results['message'];
+				break;
+
+			default:
+				return $this->results;
+				break;
+		}
+	}
 }
